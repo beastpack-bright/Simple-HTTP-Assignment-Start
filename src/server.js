@@ -31,7 +31,7 @@ const onRequest = (request, response) => {
     case '/dankmemes':
       imageHandler.getDankMemes(request, response);
       break;
-    case '/rich-client':
+    case '/rich-client.html':
       htmlHandler.getRichClient(request, response);
       break;
     default:
